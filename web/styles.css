@@ -3,6 +3,6 @@ body {
 }
 
 p {
-	color: blue;
-	text-align: center;
+	color: red;
+	margin-left: 30px;
 }
