@@ -20,7 +20,7 @@ body {
     overflow: hidden;
     /*background-color: #333;*/
     background-color: #CED0A4;
-    color: black;
+    color: #4d4b51;
 }
 
 .topnav a {
@@ -47,6 +47,7 @@ body {
 .column.side {
     width: 25%;
     background-color: #333;
+    color: #CED0A4;
 }
 
 .column.middle {
