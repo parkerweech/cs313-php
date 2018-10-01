@@ -24,7 +24,9 @@
 <div class="row">
   <div class="column side">
     <h2>Side</h2>
-    <p>This is the left side.</p>
+    <?php  
+    	echo "Left side, written in PHP.";
+    ?>
   </div>
   <div class="column middle">
     <h2>Main Content</h2>
@@ -35,7 +37,7 @@
   </div>
   <div class="column side">
     <h2>Side</h2>
-    <p>This is the right side.</p>
+    <p>Right side, not written in PHP.</p>
   </div>
 </div>
 
