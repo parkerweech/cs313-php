@@ -50,6 +50,10 @@ body {
     color: #CED0A4;
 }
 
+.column.side p {
+	color: #DFE9FF;
+}
+
 .column.middle {
     width: 50%;
     background-color: #4d4b51;
