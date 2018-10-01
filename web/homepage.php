@@ -17,7 +17,7 @@
 </div>
 
 <div class="topnav">
-  <a href="https://pure-badlands-14905.herokuapp.com/homepage.html">Homepage</a>
+  <a href="https://pure-badlands-14905.herokuapp.com/homepage.php">Homepage</a>
   <img src="mountains2.jpg">
 </div>
 
