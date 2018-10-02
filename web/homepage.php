@@ -30,9 +30,7 @@
   </div>
   <div class="column middle">
     <h2>Main Content</h2>
-    <p>Welcome to my homepage, the source of all my creative content, design masterpieces and innovative anomalies. Here you will find an abundance of never-before-seen material that has yet to reach the attention of the masses. An underground plethora of cutting-edge invention. You have never before experienced anything on the magnitude of what lies before you.</p>
-    <p>For those who would delve onward, I leave you this warning: leave now and never return. Mortal eyes can only behold so much beauty, so much astounding glory, before the entirty of our being is irreversibly consumed by its grandeur. For the sake of your loved ones, your colleagues, or perhaps any canine companions who would miss you dearly, do not continue. Please.</p>
-    <p>Should you choose to ignore my plea, then do so with caution. Take care to not stare at any JPEGs for more than 64 seconds without pause. Do not admire any column headers for an extended period of time without properly hydrating. And for the love of javascript, absolutely do NOT refresh the same page over and over again in an attempt to feel again the joy of when you first loaded said page. To do so would be to put you at a great risk of being stuck eternally inside an endless admiration loop.</p>
+    <p>My name is Parker Weech. I'm a computer science major at BYU-I. I enjoy snowboarding, basketball, music and hangingo out with my wife.. I'm from Moses Lake, WA. I'm the oldest of five siblings.</p>
     <p>Good luck, human.</p>
   </div>
   <div class="column side">
