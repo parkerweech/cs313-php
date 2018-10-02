@@ -13,7 +13,7 @@
 
 <div class="header">
   <h1>Homepage</h1>
-  <p>Welcome, human.</p>
+  <p>Welcome.</p>
 </div>
 
 <div class="topnav">
@@ -31,7 +31,6 @@
   <div class="column middle">
     <h2>Main Content</h2>
     <p>My name is Parker Weech. I'm a computer science major at BYU-I. I enjoy snowboarding, basketball, music and hangingo out with my wife.. I'm from Moses Lake, WA. I'm the oldest of five siblings.</p>
-    <p>Good luck, human.</p>
   </div>
   <div class="column side">
     <h2>Side</h2>
