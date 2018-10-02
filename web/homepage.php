@@ -30,7 +30,9 @@
   </div>
   <div class="column middle">
     <h2>Main Content</h2>
-    <p>My name is Parker Weech. I'm a computer science major at BYU-I. I enjoy snowboarding, basketball, music and hangingo out with my wife.. I'm from Moses Lake, WA. I'm the oldest of five siblings.</p>
+    <p>My name is Parker Weech. I'm a computer science major at BYU-I. I enjoy snowboarding, basketball, music and hanging out with my wife.. I'm from Moses Lake, WA. I'm the oldest of five siblings.
+
+    Also, I like to party.</p>
   </div>
   <div class="column side">
     <h2>Side</h2>
