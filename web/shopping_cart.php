@@ -20,7 +20,7 @@
 
   ul.nav-pills {
       position: fixed;
-      top: 420px;
+      top: 460px;
       padding: 5px;
   }
   div.col-sm-9 div {
