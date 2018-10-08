@@ -55,7 +55,7 @@
   </div>
 </nav>
 
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <nav class="col-sm-3" id="myScrollspy">
       <ul class="nav nav-pills nav-stacked">
