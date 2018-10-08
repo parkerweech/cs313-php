@@ -11,14 +11,16 @@
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   	<style>
+
   body {
       position: -webkit-sticky;
       top: 20;
       padding: 5px;
   }
+
   ul.nav-pills {
       position: fixed;
-      top: 380px;
+      top: 420px;
       padding: 5px;
   }
   div.col-sm-9 div {
