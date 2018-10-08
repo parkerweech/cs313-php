@@ -35,7 +35,7 @@
   }
   </style>
 </head>
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="100">
 
 	<div class="jumbotron">
 		<h1> Front Row</h1>
