@@ -13,12 +13,12 @@
   	<style>
   body {
       position: -webkit-sticky;
-      top: 20px;
+      top: 20;
       padding: 5px;
   }
   ul.nav-pills {
-      position: -webkit-sticky;
-      top: 20px;
+      position: fixed;
+      top: 380px;
       padding: 5px;
   }
   div.col-sm-9 div {
