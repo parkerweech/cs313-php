@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Shopping Cart</title>
-	<link rel="stylesheet" type="text/css" href="bootsrap-grid.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-grid.css">
 </head>
 <body>
 
