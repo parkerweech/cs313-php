@@ -12,7 +12,9 @@
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   	<style>
   body {
-      position: relative;
+      position: -webkit-sticky;
+      top: 20px;
+      padding: 5px;
   }
   ul.nav-pills {
       position: -webkit-sticky;
@@ -22,16 +24,8 @@
   div.col-sm-9 div {
       height: 250px;
       font-size: 28px;
-
-  div.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-color: yellow;
-    padding: 50px;
-    font-size: 20px;
-	}
   }
+
   #section1 {color: #fff; background-color: #1E88E5;}
   #section2 {color: #fff; background-color: #673ab7;}
   #section3 {color: #fff; background-color: #ff9800;}
