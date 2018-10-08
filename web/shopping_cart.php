@@ -45,7 +45,8 @@
   }
   </style>
 </head>
-<body>
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
 
 	<div class="jumbotron">
 		<h1> Front Row</h1>
@@ -65,9 +66,7 @@
   </div>
 </nav>
 
-</body>
-
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+<div class="sticky">I will stick to the screen when you reach my scroll position</div>
 
 <div class="container-fluid">
   <div class="row">
@@ -108,10 +107,6 @@
       </div>
     </div>
   </div>
-</div>
-
-<div class="sticky">
-	<p>I am sticky</p>
 </div>
 
 </body>
