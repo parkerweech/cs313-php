@@ -12,7 +12,9 @@
 	</div>
 	<nav class="navbar">
 		<div class="container-fluid">
-			<a href="#">Link 1</a>
+			<div class="navbar header">
+				<a href="#">Link 1</a>
+			</div>
 			<a href="#">Link 2</a>
 			<a href="#">Link 3</a>
 		</div>
