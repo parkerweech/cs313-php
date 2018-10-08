@@ -7,8 +7,8 @@
 </head>
 <body>
 	<div class="jumbotron">
-		<h1>This is a jumbotron</h1>
-		<p>This is the writing that goes inside of a jumbotron</p>
+		<h1>Front Row</h1>
+		<p>Concert, sports and event tickets</p>
 	</div>
 </body>
 </html>
