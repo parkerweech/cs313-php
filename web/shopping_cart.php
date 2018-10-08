@@ -11,9 +11,11 @@
 		<p>Concert, sports and event tickets</p>
 	</div>
 	<nav class="navbar">
-		<a href="#">Link 1</a>
-		<a href="#">Link 2</a>
-		<a href="#">Link 3</a>
+		<div class="container-fluid">
+			<a href="#">Link 1</a>
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+		</div>
 	</nav>
 </body>
 </html>
