@@ -28,11 +28,11 @@
       font-size: 28px;
   }
 
-  #section1 {color: #fff; background-color: #1E88E5;}
-  #section2 {color: #fff; background-color: #673ab7;}
-  #section3 {color: #fff; background-color: #ff9800;}
-  #section41 {color: #fff; background-color: #00bcd4;}
-  #section42 {color: #fff; background-color: #009688;}
+  #Concerts {color: #fff; background-color: #1E88E5;}
+  #Festivals {color: #fff; background-color: #673ab7;}
+  #Football {color: #fff; background-color: #ff9800;}
+  #Basketball {color: #fff; background-color: #00bcd4;}
+  #Baseball {color: #fff; background-color: #009688;}
   
   @media screen and (max-width: 810px) {
     #section1, #section2, #section3, #section41, #section42  {
