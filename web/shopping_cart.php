@@ -5,8 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap-grid.css">
 </head>
 <body>
-
-	<h1>This is the shopping cart page</h1>
-
+	<div class="container">
+		<h1>This is the shopping cart page</h1>
+	</div>
 </body>
 </html>
