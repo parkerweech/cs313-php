@@ -71,7 +71,7 @@
         </li>
       </ul>
     </nav>
-    <div class="col-sm-9">
+    <div class="col-xl-9">
       <div id="section1">    
         <h1>Section 1</h1>
         <p>Try to scroll this section and look at the navigation list while scrolling!</p>
