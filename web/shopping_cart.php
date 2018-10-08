@@ -13,8 +13,8 @@
 </head>
 <body>
 	<div class="jumbotron">
-		<h1>Front Row</h1>
-		<p>Concert, sports and event tickets</p>
+		<h1> Front Row</h1>
+		<p> Concert, sports and event tickets</p>
 	</div>
 	<nav class="navbar navbar-default">
   		<div class="container-fluid">
