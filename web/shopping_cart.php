@@ -66,38 +66,34 @@
   <div class="row">
     <nav class="col-sm-3" id="myScrollspy">
       <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#section1">Section 1</a></li>
-        <li><a href="#section2">Section 2</a></li>
-        <li><a href="#section3">Section 3</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#section41">Section 4-1</a></li>
-            <li><a href="#section42">Section 4-2</a></li>                     
-          </ul>
-        </li>
+        <li class="active">
+        	<a href="#Concerts">Concert Tours</a></li>
+       	<li><a href="#Festivals">Festivals</a>
+        <li><a href="#Football">Football</a></li>
+        <li><a href="#Basketball">Basketball</a></li>
+        <li><a href="#Baseball">Baseball</a></li>
       </ul>
     </nav>
     <div class="col-sm-9">
-      <div id="section1">    
-        <h1>Section 1</h1>
-        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+      <div id="Concerts">    
+        <h1>Concert Tours</h1>
+        <p>Attend the greatest, most highly acclaimed concert tours across the world. Genres ranging from hip-hop, rock, country and folk, there will be something near you that you won't want to miss.</p>
       </div>
-      <div id="section2"> 
-        <h1>Section 2</h1>
-        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+      <div id="Festivals"> 
+        <h1>Festivals</h1>
+        <p>Why pick one when you can have many? Explore festivals events around the world, from the smaller local gatherings to the biggest festivals shows on the globe. Shop tickets for events like Coachella, Pinkpop, Reading & Leads, Warped Tour and many more!</p>
       </div>        
-      <div id="section3">         
-        <h1>Section 3</h1>
-        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+      <div id="Football">         
+        <h1>Football</h1>
+        <p>College, NFL and Arena. Whether you want to root for your old Alma Mater, watch the greatest players in the National Football League or even attend something a bit more unique, we have tickets for you.</p>
       </div>
-      <div id="section41">         
-        <h1>Section 4-1</h1>
-        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+      <div id="Basketball">         
+        <h1>Basketball</h1>
+        <p>College and NBA. Craving some dunks and 3-point shots. We have a huge selection of tickets for basketball games in both college and NBA. Whether its a regular season college matchup or the 7th game of the NBA finals, we got you covered.</p>
       </div>      
-      <div id="section42">         
-        <h1>Section 4-2</h1>
-        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+      <div id="Baseball">         
+        <h1>Baseball</h1>
+        <p>MLB. Take me out to the ball game. Bring your peanuts and cracker-jacks because we have tickets to see any of your favorite major league baseball teams in action.</p>
       </div>
     </div>
   </div>
