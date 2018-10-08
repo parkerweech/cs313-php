@@ -6,21 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 </head>
 <body>
-	<div class="row">
-		<div class="col-*-*">
-			<p>Row 1</p>	
-		</div>
-		<div class="col-*-*">
-			<p>Row 2</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-*-*">
-			<p>Row 3</p>
-		</div>
-		<div class="col-*-*">
-			<p>Row 4</p>
-		</div>
+	<div class="jumbotron">
+		<h1>This is a jumbotron</h1>
+		<p>This is the writing that goes inside of a jumbotron</p>
 	</div>
 </body>
 </html>
