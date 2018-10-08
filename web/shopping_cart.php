@@ -15,8 +15,10 @@
       position: relative;
   }
   ul.nav-pills {
-      top: 30px;
+      position: -webkit-sticky;
       position: sticky;
+      top: 20px;
+      padding: 5px;
   }
   div.col-sm-9 div {
       height: 250px;
