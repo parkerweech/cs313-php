@@ -13,7 +13,7 @@
   	<style>
 
   body {
-      position: -webkit-sticky;
+      position: relative;
       top: 20;
       padding: 5px;
   }
