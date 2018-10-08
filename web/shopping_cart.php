@@ -15,7 +15,7 @@
       position: relative;
   }
   ul.nav-pills {
-      top: 150px;
+      top: 300px;
       position: fixed;
   }
   div.col-sm-9 div {
