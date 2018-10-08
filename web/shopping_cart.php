@@ -22,6 +22,15 @@
   div.col-sm-9 div {
       height: 250px;
       font-size: 28px;
+
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+	}
   }
   #section1 {color: #fff; background-color: #1E88E5;}
   #section2 {color: #fff; background-color: #673ab7;}
@@ -99,6 +108,10 @@
       </div>
     </div>
   </div>
+</div>
+
+<div class="sticky">
+	<p>I am sticky</p>
 </div>
 
 </body>
