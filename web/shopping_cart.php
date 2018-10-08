@@ -81,7 +81,7 @@
       </div>
       <div id="Festivals"> 
         <h1>Festivals</h1>
-        <p>Why pick one when you can have many? Explore festivals events around the world, from the smaller local gatherings to the biggest festivals shows on the globe. Shop tickets for events like Coachella, Pinkpop, Reading & Leads, Warped Tour and many more!</p>
+        <p>Why pick one when you can have many? Explore festivals events around the world, from the smaller local gatherings to the biggest festivals shows on the globe. Shop tickets for events like Coachella, Pinkpop, Reading & Leads and many more!</p>
       </div>        
       <div id="Football">         
         <h1>Football</h1>
