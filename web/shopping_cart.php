@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Shopping Cart</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 </head>
 <body>
-	<div class="container-fluid">
-		<h1>This is the shopping cart page</h1>
-		<p>This is the paragraph.</p>
-		<p>This is another paragraph</p>
+	<div class="row">
+		<div class="col-*-*"></div>
+		<div class="col-*-*"></div>
+	</div>
+	<div class="row">
+		<div class="col-*-*"></div>
+		<div class="col-*-*"></div>
 	</div>
 </body>
 </html>
