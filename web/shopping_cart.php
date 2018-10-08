@@ -16,7 +16,6 @@
   }
   ul.nav-pills {
       position: -webkit-sticky;
-      position: sticky;
       top: 20px;
       padding: 5px;
   }
