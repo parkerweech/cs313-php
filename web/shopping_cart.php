@@ -60,8 +60,6 @@
   </div>
 </nav>
 
-<div class="sticky">I will stick to the screen when you reach my scroll position</div>
-
 <div class="container-fluid">
   <div class="row">
     <nav class="col-sm-3" id="myScrollspy">
