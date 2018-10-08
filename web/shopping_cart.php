@@ -15,8 +15,10 @@
 			<div class="navbar header">
 				<a href="#">Link 1</a>
 			</div>
-			<a href="#">Link 2</a>
-			<a href="#">Link 3</a>
+			<ul class="nav navbar-nav">
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+			</ul>
 		</div>
 	</nav>
 </body>
