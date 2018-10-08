@@ -7,12 +7,20 @@
 </head>
 <body>
 	<div class="row">
-		<div class="col-*-*"></div>
-		<div class="col-*-*"></div>
+		<div class="col-*-*">
+			<p>Row 1</p>	
+		</div>
+		<div class="col-*-*">
+			<p>Row 2</p>
+		</div>
 	</div>
 	<div class="row">
-		<div class="col-*-*"></div>
-		<div class="col-*-*"></div>
+		<div class="col-*-*">
+			<p>Row 3</p>
+		</div>
+		<div class="col-*-*">
+			<p>Row 4</p>
+		</div>
 	</div>
 </body>
 </html>
