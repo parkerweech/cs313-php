@@ -77,6 +77,10 @@
     <div class="carousel-inner">
       <div class="item active">
         <img src="OBJcatch.jpg" alt="Giants" style="width:100%;">
+        <div class="carousel-caption">
+        	<h3>Giants vs. Cowboys</h3>
+        	<p>11/23/18. Click to add event to cart.</p>
+      	</div>
       </div>
     
       <div class="item">
