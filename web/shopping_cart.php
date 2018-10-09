@@ -55,7 +55,7 @@
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Browse</a></li>
+      <li><a href="shopping_cart_browse.php">Browse</a></li>
       <li><a href="#">Cart</a></li>
     </ul>
   </div>
