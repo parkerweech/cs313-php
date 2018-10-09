@@ -63,23 +63,20 @@
 </nav>
 
 <div class="container">
-  <h2>Carousel Example</h2>  
+  <h2>Upcoming Events</h2>  
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
         <img src="OBJcatch.jpg" alt="Giants" style="width:100%;">
-      </div>
-
-      <div class="item">
-        <img src="toplive.jgp" alt="Twenty" style="width:100%;">
       </div>
     
       <div class="item">
@@ -89,6 +86,11 @@
       <div class="item">
         <img src="lifeis.jpg" alt="Beautiful" style="width:100%;">
       </div>
+
+      <div class="item">
+        <img src="twenty.jgp" alt="Twenty" style="width:100%;">
+      </div>
+
     </div>
 
     <!-- Left and right controls -->
