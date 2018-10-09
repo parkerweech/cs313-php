@@ -55,9 +55,8 @@
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Music</a></li>
-      <li><a href="#">Sports</a></li>
-      <li><a href="#">Events</a></li>
+      <li><a href="#">Browse</a></li>
+      <li><a href="#">Cart</a></li>
     </ul>
   </div>
 </nav>
