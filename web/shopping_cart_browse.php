@@ -70,7 +70,6 @@
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -85,10 +84,6 @@
 
       <div class="item">
         <img src="lifeis.jpg" alt="Beautiful" style="width:100%;">
-      </div>
-
-      <div class="item">
-        <img src="twenty.jgp" alt="Twenty" style="width:100%;">
       </div>
 
     </div>
