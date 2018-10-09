@@ -22,7 +22,7 @@
       <a class="navbar-brand" href="#">Front Row</a>
     </div>
     <ul class="nav navbar-nav">
-      <li><a href="#">Home</a></li>
+      <li><a href="shopping_cart.php">Home</a></li>
       <li class="active"><a href="#">Browse</a></li>
       <li><a href="#">Cart</a></li>
     </ul>
