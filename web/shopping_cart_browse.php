@@ -88,7 +88,7 @@
       	<button type="button" class="btn btn-primary" >Add to Cart</button>
       </div>
     
-      <div class="item">
+      <div class="item" style="text-align: center;">
         <img src="mlb.jpg" alt="Baseball" style="width:100%;">
         <div class="carousel-caption">
         	<h3>Red Sox vs. Astros - Game 1</h3>
@@ -97,7 +97,7 @@
       	<button type="button" class="btn btn-primary">Add to Cart</button>
       </div>
 
-      <div class="item">
+      <div class="item" style="text-align: center;">
         <img src="lifeis.jpg" alt="Beautiful" style="width:100%;">
         <div class="carousel-caption">
         	<h3>Life is Beautiful Festival</h3>
@@ -106,7 +106,7 @@
       	<button type="button" class="btn btn-primary">Add to Cart</button>
       </div>
 
-      <div class="item">
+      <div class="item" style="text-align: center;">
         <img src="TOP.jpg" alt="Twenty" style="width:100%;">
         <div class="carousel-caption">
         	<h3>Twenty One Pilots - Bandito Tour</h3>
