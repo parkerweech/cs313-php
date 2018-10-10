@@ -81,6 +81,7 @@
         	<h3>Giants vs. Cowboys</h3>
         	<p>Click to add event to cart.</p>
       	</div>
+      	<button type="button">Click Me!</button>
       </div>
     
       <div class="item">
@@ -89,6 +90,7 @@
         	<h3>Red Sox vs. Astros - Game 1</h3>
         	<p>Click to add event to cart.</p>
       	</div>
+      	<button type="button">Click Me!</button>
       </div>
 
       <div class="item">
@@ -97,6 +99,7 @@
         	<h3>Life is Beautiful Festival</h3>
         	<p>Click to add event to cart.</p>
       	</div>
+      	<button type="button">Click Me!</button>
       </div>
 
       <div class="item">
@@ -105,6 +108,7 @@
         	<h3>Twenty One Pilots - Bandito Tour</h3>
         	<p>Click to add event to cart.</p>
       	</div>
+      	<button type="button">Click Me!</button>
       </div>
 
     </div>
