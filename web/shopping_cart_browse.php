@@ -79,20 +79,32 @@
         <img src="OBJcatch.jpg" alt="Giants" style="width:100%;">
         <div class="carousel-caption">
         	<h3>Giants vs. Cowboys</h3>
-        	<p>11/23/18. Click to add event to cart.</p>
+        	<p>Click to add event to cart.</p>
       	</div>
       </div>
     
       <div class="item">
         <img src="mlb.jpg" alt="Baseball" style="width:100%;">
+        <div class="carousel-caption">
+        	<h3>Red Sox vs. Astros - Game 1</h3>
+        	<p>Click to add event to cart.</p>
+      	</div>
       </div>
 
       <div class="item">
         <img src="lifeis.jpg" alt="Beautiful" style="width:100%;">
+        <div class="carousel-caption">
+        	<h3>Life is Beautiful Festival</h3>
+        	<p>Click to add event to cart.</p>
+      	</div>
       </div>
 
       <div class="item">
         <img src="TOP.jpg" alt="Twenty" style="width:100%;">
+        <div class="carousel-caption">
+        	<h3>Twenty One Pilots - Bandito Tour</h3>
+        	<p>Click to add event to cart.</p>
+      	</div>
       </div>
 
     </div>
