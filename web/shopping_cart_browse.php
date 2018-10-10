@@ -79,13 +79,13 @@
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
-      <div class="item active">
+      <div class="item active" style="text-align: center;">
         <img src="OBJcatch.jpg" alt="Giants" style="width:100%;">
         <div class="carousel-caption">
         	<h3>Giants vs. Cowboys</h3>
         	<p>Click to add event to cart.</p>
       	</div>
-      	<button type="button" class="btn btn-primary">Add to Cart</button>
+      	<button type="button" class="btn btn-primary" >Add to Cart</button>
       </div>
     
       <div class="item">
