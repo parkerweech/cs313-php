@@ -19,6 +19,10 @@
       padding: 5px;
   }
 
+  button{
+    margin: 0 auto;
+}
+
   ul.nav-pills {
       position: fixed;
       top: 460px;
