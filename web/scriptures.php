@@ -28,10 +28,10 @@ echo 'Getting ready to run the query';
 foreach ($db->query('SELECT book, chapter, verse, content FROM scriptures') as $row)
 {
   var_dump($row);
-  echo ‘Book: ' . $row[‘book'];
-  echo ' Chapter: ' . $row[‘chapter'];
-  echo ' Verse: ' . $row[‘verse’];
-  echo ' Content: ' . $row[‘content'];
+  echo 'Book: ' . $row['book'];
+  echo ' Chapter: ' . $row['chapter'];
+  echo ' Verse: ' . $row['verse'];
+  echo ' Content: ' . $row['content'];
   echo '<br/>';
 }
 
