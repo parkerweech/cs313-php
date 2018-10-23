@@ -147,12 +147,12 @@
                 Post Malone - Vancouver - 1/15/19<input type="checkbox" name="cart[]" value="pm5">
                 Halsey - Cleveland - 2/4/19<input type="checkbox" name="cart[]" value="hal1">
                 Starset - Dallas - 2/15/19<input type="checkbox" name="cart[]" value="star1">
-                <button type="submit">Submit</button> 
+                <button type="submit">Add To Cart</button> 
               </div>
             </div class="col-4"></div>
           </div>
         </div>
       </form>  
-      
+
 </body>
 </html>
