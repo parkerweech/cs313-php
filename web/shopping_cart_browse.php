@@ -78,15 +78,9 @@
     </ol>
 
     <!-- Wrapper for slides -->
+      
     <div class="carousel-inner">
-      <div class="item active" style="text-align: center;">
-        <img src="OBJcatch_new.jpg" alt="Giants" style="width:100%;">
-        <div class="carousel-caption">
-        	<h3>Giants vs. Cowboys</h3>
-        	<p>12/20/18</p>
-      	</div>
-      </div>
-    
+
       <div class="item" style="text-align: center;">
         <img src="mlb.jpg" alt="Baseball" style="width:100%;">
         <div class="carousel-caption">
@@ -103,7 +97,7 @@
       	</div>
       </div>
 
-      <div class="item" style="text-align: center;">
+      <div class="item active" style="text-align: center;">
         <img src="TOP.jpg" alt="Twenty" style="width:100%;">
         <div class="carousel-caption">
         	<h3>Twenty One Pilots - Bandito Tour</h3>
