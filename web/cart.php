@@ -77,6 +77,10 @@ $shows = $_POST["cart"];
 			echo "Your cart is empty.";
 		}
 
+		elseif (sizeof($shows) != 0) {
+			echo "The following items are in your cart: \n";
+		}
+
 		foreach ($shows as $show) {
 			$show_clean = htmlspecialchars($show);
 			echo "<li><p>$show_clean</p></li>";
