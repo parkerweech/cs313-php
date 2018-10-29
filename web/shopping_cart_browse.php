@@ -74,12 +74,19 @@
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Wrapper for slides -->
       
     <div class="carousel-inner">
+
+      <div class="item active" style="text-align: center;">
+        <img src="TOP.jpg" alt="Twenty" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Twenty One Pilots - Bandito Tour</h3>
+          <p>Tour Dates Vary</p>
+        </div>
+      </div>
 
       <div class="item" style="text-align: center;">
         <img src="mlb.jpg" alt="Baseball" style="width:100%;">
@@ -97,13 +104,6 @@
       	</div>
       </div>
 
-      <div class="item active" style="text-align: center;">
-        <img src="TOP.jpg" alt="Twenty" style="width:100%;">
-        <div class="carousel-caption">
-        	<h3>Twenty One Pilots - Bandito Tour</h3>
-        	<p>Tour Dates Vary</p>
-      	</div>
-      </div>
 
     </div>
 
