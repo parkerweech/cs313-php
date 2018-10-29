@@ -130,23 +130,23 @@
         <div class="row">
             <div class="col-4"</div>
             <div class="col-4">
-                Twenty One Pilots - Chicago - 10/4/18<input type="checkbox" name="cart[]" value="top1">
-                Twenty One Pilots - Columbus - 10/7/18<input type="checkbox" name="cart[]" value="top2">
-                Twenty One Pilots - New York - 10/8/18<input type="checkbox" name="cart[]" value="top3">
-                iHeartMusic Festival - Las Vegas - 10/15/18<input type="checkbox" name="cart[]" value="ihm1">
-                Life is Beautiful Festival - Los Angeles - 11/18/18<input type="checkbox" name="cart[]" value="lib1">
-                OneRepublic - Seattle - 11/22/18<input type="checkbox" name="cart[]" value="or1">
-                OneRepublic - Boise - 11/24/18<input type="checkbox" name="cart[]" value="or"2>
-                Migos - Atlanta - 11/28/18<input type="checkbox" name="cart[]" value="m1">
-                Cardi B - Miami - 12/4/18<input type="checkbox" name="cart[]" value="cb1">
-                Not So Silent Christmas - Denver - 12/24/18<input type="checkbox" name="cart[]" value="nss1">
-                Post Malone - Los Angeles - 1/8/19<input type="checkbox" name="cart[]" value="pm1">
-                Post Malone - Sacramento - 1/9/19<input type="checkbox" name="cart[]" value="pm2">
-                Post Malone - Portland - 1/11/19<input type="checkbox" name="cart[]" value="pm3">
-                Post Malone - Seattle - 1/12/19<input type="checkbox" name="cart[]" value="pm4">
-                Post Malone - Vancouver - 1/15/19<input type="checkbox" name="cart[]" value="pm5">
-                Halsey - Cleveland - 2/4/19<input type="checkbox" name="cart[]" value="hal1">
-                Starset - Dallas - 2/15/19<input type="checkbox" name="cart[]" value="star1">
+                Twenty One Pilots - Chicago - 10/4/18<input type="checkbox" name="cart[]" value="Twenty One Pilots - Chicago - 10/4/18">
+                Twenty One Pilots - Columbus - 10/7/18<input type="checkbox" name="cart[]" value="Twenty One Pilots - Columbus - 10/7/18">
+                Twenty One Pilots - New York - 10/8/18<input type="checkbox" name="cart[]" value="Twenty One Pilots - New York - 10/8/18">
+                iHeartMusic Festival - Las Vegas - 10/15/18<input type="checkbox" name="cart[]" value="iHeartMusic Festival - Las Vegas - 10/15/18">
+                Life is Beautiful Festival - Los Angeles - 11/18/18<input type="checkbox" name="cart[]" value="Life is Beautiful Festival - Los Angeles - 11/18/18">
+                OneRepublic - Seattle - 11/22/18<input type="checkbox" name="cart[]" value="OneRepublic - Seattle - 11/22/18">
+                OneRepublic - Boise - 11/24/18<input type="checkbox" name="cart[]" value="OneRepublic - Boise - 11/24/18">
+                Migos - Atlanta - 11/28/18<input type="checkbox" name="cart[]" value="Migos - Atlanta - 11/28/18">
+                Cardi B - Miami - 12/4/18<input type="checkbox" name="cart[]" value="Cardi B - Miami - 12/4/18">
+                Not So Silent Christmas - Denver - 12/24/18<input type="checkbox" name="cart[]" value="Not So Silent Christmas - Denver - 12/24/18">
+                Post Malone - Los Angeles - 1/8/19<input type="checkbox" name="cart[]" value="Post Malone - Los Angeles - 1/8/19">
+                Post Malone - Sacramento - 1/9/19<input type="checkbox" name="cart[]" value="Post Malone - Sacramento - 1/9/19">
+                Post Malone - Portland - 1/11/19<input type="checkbox" name="cart[]" value="Post Malone - Portland - 1/11/19">
+                Post Malone - Seattle - 1/12/19<input type="checkbox" name="cart[]" value="Post Malone - Seattle - 1/12/19">
+                Post Malone - Vancouver - 1/15/19<input type="checkbox" name="cart[]" value="Post Malone - Vancouver - 1/15/19">
+                Halsey - Cleveland - 2/4/19<input type="checkbox" name="cart[]" value="Halsey - Cleveland - 2/4/19">
+                Starset - Dallas - 2/15/19<input type="checkbox" name="cart[]" value="Starset - Dallas - 2/15/19">
                 <input type="submit" value="Add To Cart"> 
               </div>
             </div class="col-4"></div>
