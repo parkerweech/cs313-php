@@ -66,8 +66,8 @@ $shows = $_POST["cart"];
     </div>
     <ul class="nav navbar-nav">
       <li><a href="shopping_cart.php">Home</a></li>
-      <li class="active"><a href="#">Browse</a></li>
-      <li><a href="#">Cart</a></li>
+      <li><a href="shopping_cart_browse.php">Browse</a></li>
+      <li class="active"><a href="#">Cart</a></li>
     </ul>
   </div>
 </nav>
