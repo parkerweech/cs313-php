@@ -82,6 +82,7 @@ $shows = $_POST["cart"];
 		}
 
 		echo nl2br();
+		echo nl2br();
 
 		foreach ($shows as $show) {
 			$show_clean = htmlspecialchars($show);
