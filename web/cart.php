@@ -13,11 +13,9 @@ $shows = $_POST["cart"];
 
 		<?
 
-			echo "Outside loop";
-
 			foreach ($shows as $show) {
 				$show_clean = htmlspecialchars($show);
-				echo "Inside loop";
+				echo "<li><p>$show_clean</p></li>";
 			}
 
 		?>
