@@ -80,7 +80,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active" style="text-align: center;">
-        <img src="OBJcatch.jpg" alt="Giants" style="width:100%;">
+        <img src="OBJcatch_new.jpg" alt="Giants" style="width:100%;">
         <div class="carousel-caption">
         	<h3>Giants vs. Cowboys</h3>
         	<p>12/20/18</p>
