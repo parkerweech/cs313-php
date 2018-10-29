@@ -61,7 +61,7 @@
     <ul class="nav navbar-nav">
       <li><a href="shopping_cart.php">Home</a></li>
       <li class="active"><a href="#">Browse</a></li>
-      <li><a href="#">Cart</a></li>
+      <li><a href="cart.php">Cart</a></li>
     </ul>
   </div>
 </nav>
