@@ -78,7 +78,7 @@ $shows = $_POST["cart"];
 		}
 
 		elseif (sizeof($shows) != 0) {
-			echo "The following items are in your cart: \n";
+			echo "The following items are in your cart: \n \n";
 		}
 
 		foreach ($shows as $show) {
