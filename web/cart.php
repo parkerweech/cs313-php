@@ -78,8 +78,10 @@ $shows = $_POST["cart"];
 		}
 
 		elseif (sizeof($shows) != 0) {
-			echo "The following items are in your cart: \n \n";
+			echo "The following items are in your cart:";
 		}
+
+		echo nl2br();
 
 		foreach ($shows as $show) {
 			$show_clean = htmlspecialchars($show);
