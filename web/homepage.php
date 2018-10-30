@@ -28,6 +28,7 @@
     	echo "Assignments";
     ?>
     <a href="shopping_cart.php">Front Row</a>
+    <br>
   </div>
   <div class="column middle">
     <h2>Main Content</h2>
