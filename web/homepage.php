@@ -25,8 +25,9 @@
   <div class="column side">
     <h2>Side</h2>
     <?php  
-    	echo "This is the left side.";
+    	echo "Assignments";
     ?>
+    <a href="shopping_cart.php">Front Row</a>
   </div>
   <div class="column middle">
     <h2>Main Content</h2>
