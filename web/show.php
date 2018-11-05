@@ -20,8 +20,6 @@ catch (PDOException $ex)
 }
 ?>
 
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
