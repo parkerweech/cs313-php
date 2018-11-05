@@ -33,16 +33,18 @@ catch (PDOException $ex)
 
 		<?php
 
-			$statement = $db->prepare("SELECT section, seat, price, event FROM ticket");
+			$statement = $db->prepare("SELECT section, seat, price, event, event FROM ticket");
 			$statement->execute();
 			// Go through each result
 			while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 			{
+				$performer = SELECT performer FROM event WHERE id = $row['event'];
+				
 				// The variable "row" now holds the complete record for that
 				// row, and we can access the different values based on their
 				// name
 				echo '<p>';
-				echo 'Section: ' . $row['section'] . ' Seat: ' . $row['seat'] . ' Price: $' . $row['price'];
+				echo 'Group: $performer ' . Section: ' . $row['section'] . ' Seat: ' . $row['seat'] . ' Price: $' . $row['price'];
 				echo '</p>';
 			}
 
