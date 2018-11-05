@@ -44,7 +44,7 @@ catch (PDOException $ex)
 				// row, and we can access the different values based on their
 				// name
 				echo '<p>';
-				echo 'Section: ' . $row['section'] . 'Seat: ' . $row['seat'] . 'Price: $' . $row['price'];
+				echo 'Section: ' . $row['section'] . ' Seat: ' . $row['seat'] . ' Price: $' . $row['price'];
 				echo '</p>';
 			}
 
