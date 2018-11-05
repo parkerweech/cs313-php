@@ -1,3 +1,27 @@
+<?php
+
+session_start();
+try
+{
+  $dbUrl = getenv('DATABASE_URL');
+  $dbOpts = parse_url($dbUrl);
+  $dbHost = $dbOpts["host"];
+  $dbPort = $dbOpts["port"];
+  $dbUser = $dbOpts["user"];
+  $dbPassword = $dbOpts["pass"];
+  $dbName = ltrim($dbOpts["path"],'/');
+
+  $db = new PDO("pgsql:host=$dbHost;port=$dbPort;dbname=$dbName", $dbUser, $dbPassword);
+  
+  $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+}
+catch (PDOException $ex)
+{
+  echo 'Error!: ' . $ex->getMessage();
+  die();
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -124,7 +148,7 @@
         <div class="row">
             <div class="col-4"</div>
             <div class="col-4">
-                Twenty One Pilots - Chicago - 10/4/18<input type="checkbox" name="cart[]" value="Twenty One Pilots - Chicago - 10/4/18">
+                <!-- Twenty One Pilots - Chicago - 10/4/18<input type="checkbox" name="cart[]" value="Twenty One Pilots - Chicago - 10/4/18">
                 Twenty One Pilots - Columbus - 10/7/18<input type="checkbox" name="cart[]" value="Twenty One Pilots - Columbus - 10/7/18">
                 Twenty One Pilots - New York - 10/8/18<input type="checkbox" name="cart[]" value="Twenty One Pilots - New York - 10/8/18">
                 iHeartMusic Festival - Las Vegas - 10/15/18<input type="checkbox" name="cart[]" value="iHeartMusic Festival - Las Vegas - 10/15/18">
@@ -141,7 +165,25 @@
                 Post Malone - Vancouver - 1/15/19<input type="checkbox" name="cart[]" value="Post Malone - Vancouver - 1/15/19">
                 Halsey - Cleveland - 2/4/19<input type="checkbox" name="cart[]" value="Halsey - Cleveland - 2/4/19">
                 Starset - Dallas - 2/15/19<input type="checkbox" name="cart[]" value="Starset - Dallas - 2/15/19">
-                <input type="submit" value="Add To Cart"> 
+                <input type="submit" value="Add To Cart">  -->
+
+                <?php
+
+                $statement = $db->prepare("SELECT day, city, state, country, venue, performer FROM event");
+                $statement->execute();
+                // Go through each result
+                while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+                {
+
+                // The variable "row" now holds the complete record for that
+                // row, and we can access the different values based on their
+                // name
+                echo '<p>';
+                echo '<strong>' . $row['performer'] . ' </strong> ' . $row['day'] . ' in ' . $row['city'];
+                echo '</p>';
+                }
+
+                ?>
               </div>
             </div class="col-4"></div>
           </div>
