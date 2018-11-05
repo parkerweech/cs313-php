@@ -12,7 +12,7 @@ try
   $dbName = ltrim($dbOpts["path"],'/');
 
   $db = new PDO("pgsql:host=$dbHost;port=$dbPort;dbname=$dbName", $dbUser, $dbPassword);
-  
+
   $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch (PDOException $ex)
@@ -147,7 +147,7 @@ catch (PDOException $ex)
     <div class="container">
         <div class="row">
             <div class="col-4"</div>
-            <div class="col-4">
+            <div class="col-4" style="text-align:center;">
                 <!-- Twenty One Pilots - Chicago - 10/4/18<input type="checkbox" name="cart[]" value="Twenty One Pilots - Chicago - 10/4/18">
                 Twenty One Pilots - Columbus - 10/7/18<input type="checkbox" name="cart[]" value="Twenty One Pilots - Columbus - 10/7/18">
                 Twenty One Pilots - New York - 10/8/18<input type="checkbox" name="cart[]" value="Twenty One Pilots - New York - 10/8/18">
