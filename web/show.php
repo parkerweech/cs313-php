@@ -2,7 +2,7 @@
 
 	$dbUser = 'ta_user';
 	$dbPassword = 'ta_pass';
-	$dbName = 'scripture_ta';
+	$dbName = 'ticket';
 	$dbHost = 'localhost';
 	$dbPort = '5432';
 
