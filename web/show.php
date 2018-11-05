@@ -38,7 +38,10 @@ catch (PDOException $ex)
 			// Go through each result
 			while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 			{
-				
+
+				$statment2 = $db->prepare("SELECT day, city, state, country, venue, performer FROM event WHERE id = $row['event']");
+				$statement2->execute();
+				$row2 = $statement2->fetch(PDO::FETCH_ASSOC)
 				// The variable "row" now holds the complete record for that
 				// row, and we can access the different values based on their
 				// name
