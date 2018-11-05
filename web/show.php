@@ -38,13 +38,12 @@ catch (PDOException $ex)
 			// Go through each result
 			while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 			{
-				$performer = SELECT performer FROM event WHERE id = $row['event'];
 				
 				// The variable "row" now holds the complete record for that
 				// row, and we can access the different values based on their
 				// name
 				echo '<p>';
-				echo '$performer ' . 'Section: ' . $row['section'] . ' Seat: ' . $row['seat'] . 
+				echo 'Section: ' . $row['section'] . ' Seat: ' . $row['seat'] . 
 					 ' Price: $' . $row['price'];
 				echo '</p>';
 			}
