@@ -23,7 +23,7 @@ catch (PDOException $ex)
 <!DOCTYPE html>
 <html>
 <head>
-	<title>View Tickets</title>
+	<title>Here are all upcoming events</title>
 </head>
 <body>
 
@@ -33,21 +33,17 @@ catch (PDOException $ex)
 
 		<?php
 
-			$statement = $db->prepare("SELECT section, seat, price, event, event FROM ticket");
+			$statement = $db->prepare("SELECT day, city, state, country, venue, performer FROM event");
 			$statement->execute();
 			// Go through each result
 			while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 			{
 
-				$statment2 = $db->prepare("SELECT day, city, state, country, venue, performer FROM event WHERE id = $row['event']");
-				$statement2->execute();
-				$row2 = $statement2->fetch(PDO::FETCH_ASSOC)
 				// The variable "row" now holds the complete record for that
 				// row, and we can access the different values based on their
 				// name
 				echo '<p>';
-				echo 'Section: ' . $row['section'] . ' Seat: ' . $row['seat'] . 
-					 ' Price: $' . $row['price'];
+				echo '<strong>' . $row['performer'] . ' ' . $row['day'] . ' in ' . $row['city'];
 				echo '</p>';
 			}
 
