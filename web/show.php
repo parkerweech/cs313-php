@@ -29,7 +29,7 @@ catch (PDOException $ex)
 
 	<div>
 		
-		<h1>Here are all the tickets.</h1>
+		<h1>Upcoming Events:</h1>
 
 		<?php
 
