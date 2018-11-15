@@ -70,7 +70,24 @@ catch (PDOException $ex)
   }
   </style>
 </head>
-<body>
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+<div class="jumbotron">
+		<h1> Front Row</h1>
+		<p> Concert, sports and event tickets</p>
+	</div>
+	<nav class="navbar navbar-default">
+  		<div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Front Row</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="shopping_cart.php">Home</a></li>
+      <li class="active"><a href="#">Browse</a></li>
+      <li><a href="cart.php">Cart</a></li>
+    </ul>
+  </div>
+</nav>
 
 	<form action="cart.php" method="POST">
     <div class="container">
