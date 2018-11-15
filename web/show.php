@@ -34,12 +34,22 @@ catch (PDOException $ex)
 		<?php
 
 			$id = $_GET['id'];
-			echo "<html><h3>Reviews for ".$id."</h3></html>";
 
-			$statement = $db->prepare("SELECT id, section, seat, price FROM event");
-			$statement->execute();
+			$statement = $db->prepare("SELECT id, day, city, state, country, venue, performer FROM event WHERE id=:id");
+            $statement->execute();
+
+            $row1 = $statement->fetch(PDO::FETCH_ASSOC)
+
+            echo $row1['performer'];
+
+			$statement2 = $db->prepare("SELECT id, section, seat, price FROM ticket WHERE event=:id");
+			$statement2->execute();
 			// Go through each result
-			while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+
+
+			echo "<html><h3>Tickets for ".$id."</h3></html>";
+
+			while ($row2 = $statement2->fetch(PDO::FETCH_ASSOC))
 			{
 
 				// The variable "row" now holds the complete record for that
