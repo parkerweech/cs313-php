@@ -158,8 +158,9 @@ catch (PDOException $ex)
                 echo '<p>';
                 echo '<strong>' . $row['performer'] . ' </strong> ' . $row['day'] . ' in ' . $row['city'];
                 $id = $row['id'];
+                $performer = $row['performer'];
                 echo " ";
-                echo "<a href='show.php?id=$id'>View Tickets</a>";
+                echo "<a href='show.php?id=$id,artist=$performer'>View Tickets</a>";
                 echo '</p>';
                 }
 
