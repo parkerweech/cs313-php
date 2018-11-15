@@ -100,6 +100,11 @@ catch (PDOException $ex)
 
               	$sql = "SELECT day, city, performer FROM event WHERE id=$name";
               	$result = $db->query($sql);
+              	if ($result->num_rows > 0) {
+    				// output data of each row
+    				$row = $result->fetch_assoc();
+    				echo $row['perfomer'];
+    			}
 
 				$statement = $db->prepare("SELECT id, section, seat, price FROM ticket WHERE event=$name");
 				$statement->execute();
