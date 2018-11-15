@@ -98,6 +98,14 @@ catch (PDOException $ex)
 
                $name = $_GET['id'];
 
+               $sql = "DELETE FROM ticket WHERE id=$name";
+
+                if ($db->query($sql) === TRUE) {
+                  echo "Record deleted successfully";
+                } else {
+                  echo "Error deleting record: " . $db->error;
+                  }
+
                echo '<p>';
                echo "Thank you for your purchase.";
                echo '<br>';
