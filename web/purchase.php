@@ -129,7 +129,7 @@ catch (PDOException $ex)
                 echo "Price: $" . $row['price'];
                 echo '<br>';
                 echo '<br>';
-                echo "<a href='finish.php'>Click to Confirm Purchase</a>";
+                echo "<a href='thankyou.php?id=$name'>Click to Confirm Purchase</a>";
                 echo '</p>';
                 echo '<br>';
                 
