@@ -103,7 +103,7 @@ catch (PDOException $ex)
                 // Go through each result
                 $row = $statement->fetch(PDO::FETCH_ASSOC);
                 echo '<h3>';
-                echo "Tickets for: " . '<strong>' . $row['performer'] . '</strong>';
+                echo '<strong>' . $row['performer'] . '</strong>';
                 echo " - " . $row['day'];
                 echo " - " . $row['city'] . ", " . $row['state'];
                 echo '<br>';
