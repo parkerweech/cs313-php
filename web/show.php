@@ -33,19 +33,15 @@ catch (PDOException $ex)
 
 		<?php
 
-			$name = $_GET['id'];
-
-			
-
-			
+			$name = $_GET['id'];			
 			// Go through each result
 
-			$stmt = $db->prepare("SELECT day, city, state, country, venue, performer FROM event WHERE id=$name");
-            $stmt->execute();
-            $row_2 = $stmt->fetch(PDO::FETCH_ASSOC)
+			// $stmt = $db->prepare("SELECT day, city, state, country, venue, performer FROM event WHERE id=$name");
+   //          $stmt->execute();
+   //          $row_2 = $stmt->fetch(PDO::FETCH_ASSOC)
 
-			echo "<html><h3>Tickets for ". $row_2['performer'] . " at " . $row_2['city'] . " on " . $row_2['date'] 
-					"</h3></html>";
+			// echo "<html><h3>Tickets for ". $row_2['performer'] . " at " . $row_2['city'] . " on " . $row_2['date'] 
+			// 		"</h3></html>";
 
 			$statement = $db->prepare("SELECT id, section, seat, price FROM ticket WHERE event=$name");
 			$statement->execute();
