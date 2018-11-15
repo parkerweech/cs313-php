@@ -37,9 +37,9 @@ catch (PDOException $ex)
 
 			$name = $_GET['id'];
 
-			echo "<html><h3>Tickets for ".$id."</h3></html>";
+			echo "<html><h3>Tickets for ".$name."</h3></html>";
 
-			$statement = $db->prepare("SELECT id, section, seat, price FROM ticket WHERE event=id");
+			$statement = $db->prepare("SELECT id, section, seat, price FROM ticket WHERE event=name");
 			$statement->execute();
 			// Go through each result
 
