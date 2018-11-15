@@ -45,9 +45,9 @@ catch (PDOException $ex)
 
 			while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 			{
-				echo '<p>'
+				echo '<p>';
 				echo "Section " . $row['section'] . " - Seat " . $row['seat'] . " - Price: $" . $row['price']; 
-				echo '</p>'
+				echo '</p>';
 			}
 
 		?>
