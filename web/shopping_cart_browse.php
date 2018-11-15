@@ -148,25 +148,6 @@ catch (PDOException $ex)
         <div class="row">
             <div class="col-4"</div>
             <div class="col-4" style="text-align:center;">
-                <!-- Twenty One Pilots - Chicago - 10/4/18<input type="checkbox" name="cart[]" value="Twenty One Pilots - Chicago - 10/4/18">
-                Twenty One Pilots - Columbus - 10/7/18<input type="checkbox" name="cart[]" value="Twenty One Pilots - Columbus - 10/7/18">
-                Twenty One Pilots - New York - 10/8/18<input type="checkbox" name="cart[]" value="Twenty One Pilots - New York - 10/8/18">
-                iHeartMusic Festival - Las Vegas - 10/15/18<input type="checkbox" name="cart[]" value="iHeartMusic Festival - Las Vegas - 10/15/18">
-                Life is Beautiful Festival - Los Angeles - 11/18/18<input type="checkbox" name="cart[]" value="Life is Beautiful Festival - Los Angeles - 11/18/18">
-                OneRepublic - Seattle - 11/22/18<input type="checkbox" name="cart[]" value="OneRepublic - Seattle - 11/22/18">
-                OneRepublic - Boise - 11/24/18<input type="checkbox" name="cart[]" value="OneRepublic - Boise - 11/24/18">
-                Migos - Atlanta - 11/28/18<input type="checkbox" name="cart[]" value="Migos - Atlanta - 11/28/18">
-                Cardi B - Miami - 12/4/18<input type="checkbox" name="cart[]" value="Cardi B - Miami - 12/4/18">
-                Not So Silent Christmas - Denver - 12/24/18<input type="checkbox" name="cart[]" value="Not So Silent Christmas - Denver - 12/24/18">
-                Post Malone - Los Angeles - 1/8/19<input type="checkbox" name="cart[]" value="Post Malone - Los Angeles - 1/8/19">
-                Post Malone - Sacramento - 1/9/19<input type="checkbox" name="cart[]" value="Post Malone - Sacramento - 1/9/19">
-                Post Malone - Portland - 1/11/19<input type="checkbox" name="cart[]" value="Post Malone - Portland - 1/11/19">
-                Post Malone - Seattle - 1/12/19<input type="checkbox" name="cart[]" value="Post Malone - Seattle - 1/12/19">
-                Post Malone - Vancouver - 1/15/19<input type="checkbox" name="cart[]" value="Post Malone - Vancouver - 1/15/19">
-                Halsey - Cleveland - 2/4/19<input type="checkbox" name="cart[]" value="Halsey - Cleveland - 2/4/19">
-                Starset - Dallas - 2/15/19<input type="checkbox" name="cart[]" value="Starset - Dallas - 2/15/19">
-                <input type="submit" value="Add To Cart">  -->
-
                 <?php
 
                 $statement = $db->prepare("SELECT day, city, state, country, venue, performer FROM event");
@@ -174,13 +155,11 @@ catch (PDOException $ex)
                 // Go through each result
                 while ($row = $statement->fetch(PDO::FETCH_ASSOC))
                 {
-
-                // The variable "row" now holds the complete record for that
-                // row, and we can access the different values based on their
-                // name
                 echo '<p>';
                 echo '<strong>' . $row['performer'] . ' </strong> ' . $row['day'] . ' in ' . $row['city'];
                 echo '</p>';
+                $performer = $row['performer'];
+                echo "<a href='show.php?id=$performer'>View Shows</a>";
                 }
 
                 ?>
