@@ -107,7 +107,7 @@ catch (PDOException $ex)
                echo '<br>';
                echo $row['day'];
                echo '<br>';
-               echo $row['city'] . ", " . $row['state'] . $row['country'];
+               echo $row['city'] . ", " . $row['state'] . " " . $row['country'];
                echo '<br>';
                echo $row['venue'];
                echo '<br>';
@@ -116,13 +116,14 @@ catch (PDOException $ex)
                 $statement->execute();
                 $row = $statement->fetch(PDO::FETCH_ASSOC);
 
-                echo "Section " . $row['section'];
+                echo "Section: " . $row['section'];
                 echo '<br>';
-                echo "Seat " . $row['seat'];
+                echo "Seat: " . $row['seat'];
                 echo '<br>';
                 echo "Price: $" . $row['price'];
                 echo '<br>';
-                echo "<a href='purchase.php?id=$id'>Confirm Purchase</a>";
+                echo '<br>';
+                echo "<a href='purchase.php?id=$id'>Click to Confirm Purchase</a>";
                 echo '</p>';
                 echo '<br>';
                 
