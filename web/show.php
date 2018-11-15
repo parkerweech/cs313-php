@@ -98,17 +98,13 @@ catch (PDOException $ex)
 
               	$name = $_GET['id'];
 
-              	$sql = "SELECT day, city, performer FROM event WHERE id=$name";
-              	$result = $db->query($sql);
-              	if ($result->num_rows > 0) {
-    				// output data of each row
-    				$row = $result->fetch_assoc();
-    				echo $row['perfomer'];
-    			}
+              	$statement = $db->prepare("SELECT id, day, city, state, country, venue, performer FROM event WHERE id=$name");
+                $statement->execute();
+                // Go through each result
+                $row = $statement->fetch(PDO::FETCH_ASSOC);
+                echo "Tickets for: " . $row['performer'];
+                echo '<br>'
 
-    			else {
-    				echo 'Empty';
-    			}
 
 				$statement = $db->prepare("SELECT id, section, seat, price FROM ticket WHERE event=$name");
 				$statement->execute();
