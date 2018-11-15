@@ -118,7 +118,7 @@ catch (PDOException $ex)
                echo $row['venue'];
                echo '<br>';
 
-                $statement = $db->prepare("SELECT id, section, seat, price FROM ticket WHERE event=$event");
+                $statement = $db->prepare("SELECT id, section, seat, price FROM ticket WHERE id=$name");
                 $statement->execute();
                 $row = $statement->fetch(PDO::FETCH_ASSOC);
 
