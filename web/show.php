@@ -43,12 +43,13 @@ catch (PDOException $ex)
 
 			while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 			{
+				echo 'Hello';
 
 				// The variable "row" now holds the complete record for that
 				// row, and we can access the different values based on their
 				// name
 				echo '<p>';
-				echo '<strong>' . $row['performer'] . ' </strong> ' . $row['day'] . ' in ' . $row['city'];
+				echo '<strong>' . $row['price'] . ' </strong> ' . $row['seat'] . ' in ' . $row['section'];
 				echo '</p>';
 			}
 
