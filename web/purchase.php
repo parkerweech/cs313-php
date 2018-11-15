@@ -101,16 +101,17 @@ catch (PDOException $ex)
                $statement = $db->prepare("SELECT id, day, city, state, country, venue, performer FROM event WHERE id=$name");
                $statement->execute();
                //  // Go through each result
-               //  $row = $statement->fetch(PDO::FETCH_ASSOC);
-               //  echo '<p>'
-               //  echo '<strong>' . $row['performer'] . '</strong>';
-               //  echo '<br>'
-               //  echo $row['day'];
-               //  echo '<br>'
-               //  echo $row['city'] . ", " . $row['state'] . $row['country'];
-               //  echo '<br>';
-               //  echo $row['venue'];
-               //  echo '<br>';
+               $row = $statement->fetch(PDO::FETCH_ASSOC);
+               echo '<p>'
+               echo '<strong>' . $row['performer'] . '</strong>';
+               echo '<br>'
+               echo $row['day'];
+               echo '<br>'
+               echo $row['city'] . ", " . $row['state'] . $row['country'];
+               echo '<br>';
+               echo $row['venue'];
+               echo '<br>';
+               echo '</p>';
 
                //  $statement = $db->prepare("SELECT id, section, seat, price FROM ticket WHERE event=$name");
                //  $statement->execute();
