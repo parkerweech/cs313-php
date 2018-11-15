@@ -106,6 +106,10 @@ catch (PDOException $ex)
     				echo $row['perfomer'];
     			}
 
+    			else {
+    				echo 'Empty';
+    			}
+
 				$statement = $db->prepare("SELECT id, section, seat, price FROM ticket WHERE event=$name");
 				$statement->execute();
 				while ($row = $statement->fetch(PDO::FETCH_ASSOC))
