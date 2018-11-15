@@ -25,7 +25,7 @@ catch (PDOException $ex)
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Confirm Purchase</title>
+	<title>Thank you</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -98,40 +98,12 @@ catch (PDOException $ex)
 
                $name = $_GET['id'];
 
-               $statement = $db->prepare("SELECT event FROM ticket WHERE id=$name");
-               $statement->execute();
-               $row = $statement->fetch(PDO::FETCH_ASSOC);
-
-               $event = $row['event'];
-
-               $statement = $db->prepare("SELECT id, day, city, state, country, venue, performer FROM event WHERE id=$event");
-               $statement->execute();
-               //  // Go through each result
-               $row = $statement->fetch(PDO::FETCH_ASSOC);
                echo '<p>';
-               echo '<strong>' . $row['performer'] . '</strong>';
+               echo "Thank you for your purchase.";
+               echo "Your tickets will be mailed to you in 5-7 business days.";
                echo '<br>';
-               echo $row['day'];
-               echo '<br>';
-               echo $row['city'] . ", " . $row['state'] . " " . $row['country'];
-               echo '<br>';
-               echo $row['venue'];
-               echo '<br>';
-
-                $statement = $db->prepare("SELECT id, section, seat, price FROM ticket WHERE id=$name");
-                $statement->execute();
-                $row = $statement->fetch(PDO::FETCH_ASSOC);
-
-                echo "Section: " . $row['section'];
-                echo '<br>';
-                echo "Seat: " . $row['seat'];
-                echo '<br>';
-                echo "Price: $" . $row['price'];
-                echo '<br>';
-                echo '<br>';
-                echo "<a href='finish.php'>Click to Confirm Purchase</a>";
-                echo '</p>';
-                echo '<br>';
+               echo "<a href='shopping_cart_browse.php'>Continue Shopping</a>";
+               echo '</p>';
                 
               ?>
 
