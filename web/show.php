@@ -50,10 +50,11 @@ catch (PDOException $ex)
 			{
 				echo '<p>';
 				echo "Section " . $row['section'] . " - Seat " . $row['seat'] . " - Price: $" . $row['price']; 
-				echo '</p>';
 				echo '<br>';
 				$id = $row[id];
 				echo "<a href='show.php?id=$id'>Purchase Ticket</a>";
+				echo '</p>';
+			
 			}
 
 		?>
