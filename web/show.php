@@ -83,7 +83,7 @@ catch (PDOException $ex)
     </div>
     <ul class="nav navbar-nav">
       <li><a href="shopping_cart.php">Home</a></li>
-      <li class="active"><a href="#">Browse</a></li>
+      <li class="active"><a href="shopping_cart_browse.php">Browse</a></li>
       <li><a href="cart.php">Cart</a></li>
     </ul>
   </div>
@@ -97,7 +97,7 @@ catch (PDOException $ex)
                 <?php
 
               	$name = $_GET['id'];
-              	
+
 				$statement = $db->prepare("SELECT id, section, seat, price FROM ticket WHERE event=$name");
 				$statement->execute();
 				while ($row = $statement->fetch(PDO::FETCH_ASSOC))
