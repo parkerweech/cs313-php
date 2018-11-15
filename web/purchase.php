@@ -98,25 +98,25 @@ catch (PDOException $ex)
 
               	$name = $_GET['name'];
 
-                $statement = $db->prepare("SELECT event FROM ticket WHERE id=$name");
-                $statement->execute();
-                $row = $statement->fetch(PDO::FETCH_ASSOC);
+               //  $statement = $db->prepare("SELECT event FROM ticket WHERE id=$name");
+               //  $statement->execute();
+               //  $row = $statement->fetch(PDO::FETCH_ASSOC);
 
-                $event = $row['event'];
+               //  $event = $row['event'];
 
-               $statement = $db->prepare("SELECT id, day, city, state, country, venue, performer FROM event WHERE id=$event");
-               $statement->execute();
-               //  // Go through each result
-               $row = $statement->fetch(PDO::FETCH_ASSOC);
-               echo '<p>';
-               echo '<strong>' . $row['performer'] . '</strong>';
-               echo '<br>';
-               echo $row['day'];
-               echo '<br>';
-               echo $row['city'] . ", " . $row['state'] . " " . $row['country'];
-               echo '<br>';
-               echo $row['venue'];
-               echo '<br>';
+               // $statement = $db->prepare("SELECT id, day, city, state, country, venue, performer FROM event WHERE id=$event");
+               // $statement->execute();
+               // //  // Go through each result
+               // $row = $statement->fetch(PDO::FETCH_ASSOC);
+               // echo '<p>';
+               // echo '<strong>' . $row['performer'] . '</strong>';
+               // echo '<br>';
+               // echo $row['day'];
+               // echo '<br>';
+               // echo $row['city'] . ", " . $row['state'] . " " . $row['country'];
+               // echo '<br>';
+               // echo $row['venue'];
+               // echo '<br>';
 
                 $statement = $db->prepare("SELECT id, section, seat, price FROM ticket WHERE id=$name");
                 $statement->execute();
