@@ -98,12 +98,14 @@ catch (PDOException $ex)
 
               	$name = $_GET['name'];
 
-                $statement = $db->prepare("SELECT event FROM ticket WHERE id=$name");
-                $statement->execute();
-                $row = $statement->fetch(PDO::FETCH_ASSOC);
+                echo $name;
 
-                $event = $row['event'];
-                echo $event;
+                // $statement = $db->prepare("SELECT event FROM ticket WHERE id=$name");
+                // $statement->execute();
+                // $row = $statement->fetch(PDO::FETCH_ASSOC);
+
+                // $event = $row['event'];
+                // echo $event;
 
                // $statement = $db->prepare("SELECT id, day, city, state, country, venue, performer FROM event WHERE id=$event");
                // $statement->execute();
