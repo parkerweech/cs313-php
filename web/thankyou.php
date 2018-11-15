@@ -100,9 +100,11 @@ catch (PDOException $ex)
 
                echo '<p>';
                echo "Thank you for your purchase.";
+               echo '<br>';
                echo "Your tickets will be mailed to you in 5-7 business days.";
                echo '<br>';
-               echo "<a href='shopping_cart_browse.php'>Continue Shopping</a>";
+               echo '<br>';
+               echo "<a href='shopping_cart_browse.php'>Click to Continue Shopping</a>";
                echo '</p>';
                 
               ?>
