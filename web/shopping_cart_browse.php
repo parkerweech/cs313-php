@@ -150,16 +150,16 @@ catch (PDOException $ex)
             <div class="col-4" style="text-align:center;">
                 <?php
 
-                $statement = $db->prepare("SELECT day, city, state, country, venue, performer FROM event");
+                $statement = $db->prepare("SELECT id, day, city, state, country, venue, performer FROM event");
                 $statement->execute();
                 // Go through each result
                 while ($row = $statement->fetch(PDO::FETCH_ASSOC))
                 {
                 echo '<p>';
                 echo '<strong>' . $row['performer'] . ' </strong> ' . $row['day'] . ' in ' . $row['city'];
-                $performer = $row['performer'];
+                $id = $row['id'];
                 echo " ";
-                echo "<a href='show.php?id=$performer'>View Tickets</a>";
+                echo "<a href='show.php?id=$id'>View Tickets</a>";
                 echo '</p>';
                 }
 
