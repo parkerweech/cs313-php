@@ -96,8 +96,9 @@ catch (PDOException $ex)
             <div class="col-4" style="text-align:center;">
                 <?php
 
-              	$name = $_GET['id'];			
-	
+              	$name = $_GET['id'];
+              	$artist = $_GET['artist'];
+
 				$statement = $db->prepare("SELECT id, section, seat, price FROM ticket WHERE event=$name");
 				$statement->execute();
 				while ($row = $statement->fetch(PDO::FETCH_ASSOC))
