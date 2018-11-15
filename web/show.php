@@ -117,7 +117,7 @@ catch (PDOException $ex)
 					echo '<p>';
 					echo "Section " . $row['section'] . " - Seat " . $row['seat'] . " - Price: $" . $row['price']; 
 					echo '<br>';
-					$id = $row[id];
+					$id = $row['id'];
 					echo "<a href='purchase.php?id=$id'>Purchase Ticket</a>";
 					echo '</p>';
 				}
