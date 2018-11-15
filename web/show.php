@@ -40,7 +40,7 @@ catch (PDOException $ex)
 
             $row1 = $statement->fetch(PDO::FETCH_ASSOC)
 
-            echo $row1['performer'];
+            echo "hello";
 
 			$statement2 = $db->prepare("SELECT id, section, seat, price FROM ticket WHERE event=:id");
 			$statement2->execute();
