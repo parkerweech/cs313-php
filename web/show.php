@@ -102,8 +102,10 @@ catch (PDOException $ex)
                 $statement->execute();
                 // Go through each result
                 $row = $statement->fetch(PDO::FETCH_ASSOC);
-                echo "Tickets for: " . $row['performer'];
+                echo '<p>';
+                echo "Tickets for: " . '<strong>' . $row['performer'] . '</strong>' . " Date: " . $row['day'] . " in " . $row['city'];
                 echo '<br>';
+                echo '</p>';
 
 				$statement = $db->prepare("SELECT id, section, seat, price FROM ticket WHERE event=$name");
 				$statement->execute();
