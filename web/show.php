@@ -33,7 +33,10 @@ catch (PDOException $ex)
 
 		<?php
 
-			$statement = $db->prepare("SELECT day, city, state, country, venue, performer FROM event");
+			$id = $_GET['id'];
+			echo "<html><h3>Reviews for ".$id."</h3></html>";
+
+			$statement = $db->prepare("SELECT id, section, seat, price FROM event");
 			$statement->execute();
 			// Go through each result
 			while ($row = $statement->fetch(PDO::FETCH_ASSOC))
