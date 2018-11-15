@@ -108,6 +108,7 @@ catch (PDOException $ex)
                 echo " - " . $row['city'] . ", " . $row['state'];
                 echo '<br>';
                 echo '</h3>';
+                echo '<br>';
 
 				$statement = $db->prepare("SELECT id, section, seat, price FROM ticket WHERE event=$name");
 				$statement->execute();
