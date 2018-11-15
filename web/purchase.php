@@ -96,7 +96,7 @@ catch (PDOException $ex)
             <div class="col-4" style="text-align:center;">
                 <?php
 
-              	// $name = $_GET['id'];
+              	$name = $_GET['id'];
 
                //  $statement = $db->prepare("SELECT id, day, city, state, country, venue, performer FROM event WHERE id=$name");
                //  $statement->execute();
